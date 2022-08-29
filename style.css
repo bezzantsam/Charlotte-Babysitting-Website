@@ -6,10 +6,25 @@ body {
   background-size: cover;
   background-position: center;
 }
-
+h1 {
+  font-size: 50px;
+  color: #00b4d8;
+}
+h2 {
+  color: #9b5de5;
+}
 p {
-  font-size: 20px;
+  color: #f15bb5;
+  font-size: 30px;
   font-family: "Times New Roman", Times, serif;
+}
+phone {
+  font-size: 30px;
+  color: #9b5de5;
+}
+email {
+  font-size: 30px;
+  color: #9b5de5;
 }
 .container {
   display: flex;
@@ -20,13 +35,16 @@ p {
   padding: 20px;
   border-radius: 20px;
   margin: 20px;
+  height: 80%;
 }
 .page {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
+.foot {
+  color: #fee440;
+}
 /* img {
   max-height: 500px;
 } */

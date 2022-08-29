@@ -7,25 +7,24 @@ body {
   background-position: center;
 }
 h1 {
-  font-size: 50px;
+  font-size: 55px;
   color: #00b4d8;
 }
 h2 {
-  color: #9b5de5;
+  font-size: 40px;
+  color: #f15bb5;
 }
 p {
-  color: #f15bb5;
-  font-size: 30px;
+  color: #9b5de5;
+  font-size: 35px;
   font-family: "Times New Roman", Times, serif;
+  filter: brightness(85%);
 }
-phone {
-  font-size: 30px;
+a {
+  font-size: 35px;
   color: #9b5de5;
 }
-email {
-  font-size: 30px;
-  color: #9b5de5;
-}
+
 .container {
   display: flex;
   justify-content: space-evenly;
@@ -42,9 +41,10 @@ email {
   flex-direction: column;
   justify-content: space-between;
 }
-.foot {
+/* .foot {
   color: #fee440;
-}
+  text-underline-offset: none;
+} */
 /* img {
   max-height: 500px;
 } */
